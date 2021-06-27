@@ -1,2 +1,2 @@
 # rachelsyr0.github.io
-# Flashcard
+- Flashcard assignment
