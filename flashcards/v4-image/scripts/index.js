@@ -17,7 +17,7 @@ let myFlashcards = [ {
     
     
 let counter = 0;
-let questionAsked = false; // make sure that they ask the question first!
+let questionAsked = false; 
 
 function displayQuestion() {
      if (counter == myFlashcards.length)
