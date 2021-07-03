@@ -9,9 +9,9 @@ class questionObject {
   let flashcard = [];
    
   // Create questions and push them onto the flashcards array
-  flashcard.push(new questionObject('What is the capital of china?', 'Beijing', 'images/magnolia.jpeg'));
-  flashcard.push(new questionObject('What is the largest plain in the world?', 'Amazon Plain', 'images/magnolia.jpeg'));
-  flashcard.push(new questionObject('What is the smallest country in the world?', 'Vatican', 'images/magnolia.jpeg'));         
+  flashcard.push(new questionObject('Which famous painting is it?', 'Starry Night Over the Rhone, painted by Vincent van Gogh', 'images/starrynight.jpeg'));
+  flashcard.push(new questionObject('Which famous painting is it?', 'Impression, soleil levant, painted by Louis Leroy', 'images/impression.jpeg'));
+  flashcard.push(new questionObject('Which famous painting is it?', 'Mona Lisa, painted by da Vinci', 'images/MonaLisa.jpeg'));         
   
 
   // display the question and answer in order when button are hovered
