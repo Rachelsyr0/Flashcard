@@ -12,7 +12,7 @@ fetch('sample.json')
 .then(text => displayCatInfo(text))
 
 
-let requestURL = 'https://rachelsyr0.github.io/Json/cats.json';
+let requestURL = 'https://rachelsyr0.github.io/Json/json/cats.json';
 let request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'text'; 
