@@ -10,7 +10,7 @@ class questionObject {
   // Create questions and push them onto the flashcards array
   flashcard.push(new questionObject('What is the capital of china?', 'Beijing'));
   flashcard.push(new questionObject('What is the largest plain in the world?', 'Amazon Plain'));
-  flashcard.push(new questionObject('What is the smallest country in the world?', 'blue'));         
+  flashcard.push(new questionObject('What is the smallest country in the world?', 'Vatican'));         
   
 
   // display the question and answer in order when button are hovered
