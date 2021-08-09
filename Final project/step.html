@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title> Objective 1 </title>
+    <link href="./styles/style.css" rel="stylesheet" type="text/css">
+    <ul class="navArea">
+        <li class="nav"><a href="index.html"> < Back to homepage</a></li>
+    </ul>
+  </head>
+
+  <body>
+
+    <div class="backgroundStyle">
+
+
+    <h1 id="myInstruction"></h1>
+    
+    <p class="subtitle">Tutorials</p>
+
+    <div id="myInstruction1" class="instructionTitle"></div><br/>
+    <div id="myInstructionContent1"></div><br/>
+    <img id="myInstructionPic1"><br/>
+    <div id="myInstruction2" class="instructionTitle"></div><br/>
+    <div id="myInstructionContent2"></div><br/>
+    <img id="myInstructionPic2"><br/>
+
+
+    <p class="subtitle">Learning by doing</p>
+
+    <div id="myQuiz1" style="margin-top: 32px;" ></div><br/>
+    <div>
+        <input type="radio" id="quiz1Answer1_radio" onchange=checkAnswer() name="myQuiz1">
+        <label id="quiz1Answer1"></label></br>
+        <input type="radio" id="quiz1Answer2_radio" onchange=checkAnswer() name="myQuiz1">
+        <label id="quiz1Answer2"></label></br>
+        <input type="radio" id="quiz1Answer3_radio" onchange=checkAnswer() name="myQuiz1">
+        <label id="quiz1Answer3"></label></br>
+        <div style="background-color:rgba(255, 0, 0, 0.116); border-radius: 2px;">
+            <div id="quiz1Wrong" style="color: red; margin: 12px;"></div>
+        </div>
+        <div style="background-color:rgba(0, 128, 0, 0.137); border-radius: 2px;">
+            <div id="quiz1Correct" style="color: green; margin: 12px;"></div>
+        </div>
+    </div>
+
+
+    <div id="myQuiz2" style="margin-top: 32px;"></div><br/>
+    <div>
+        <input type="radio" id="quiz2Answer1_radio" onchange=checkAnswer() name="myQuiz2">
+        <label id="quiz2Answer1"></label></br>
+        <input type="radio" id="quiz2Answer2_radio" onchange=checkAnswer() name="myQuiz2">
+        <label id="quiz2Answer2"></label></br>
+        <input type="radio" id="quiz2Answer3_radio" onchange=checkAnswer() name="myQuiz2">
+        <label id="quiz2Answer3"></label></br>
+        <div style="background-color:rgba(255, 0, 0, 0.116); border-radius: 2px;">
+            <div id="quiz2Wrong" style="color: red; margin: 12px;"></div>
+        </div>
+        <div style="background-color:rgba(0, 128, 0, 0.137); border-radius: 2px;">
+            <div id="quiz2Correct" style="color: green; margin: 12px;"></div>
+        </div>
+    </div>
+
+
+    <button id="nextBtn" class="button buttonLeft"></button>
+    <button id="previousBtn" class="button buttonRight" >Previous</button>
+
+
+
+    <script src="scripts/index.js"></script>
+
+    </div>
+  </body>
+</html>
